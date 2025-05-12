@@ -18,7 +18,7 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2017, 2016, 2013, 2012, 2010]
 <!-- this section makes use of the bibliography of proper academic publications in publications.bib -->
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f publications --query @*[year={{y}}]* %}
+  {% bibliography --query @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
