@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - tillgrallert
+  - openarabicpe
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - OpenArabicPE/journal_al-muqtabas
+  - OpenArabicPE/journal_al-haqaiq
+  - OpenArabicPE/journal_lughat-al-arab
+  - OpenArabicPE/journal_al-manar
+  - OpenArabicPE/journal_al-ustadh
+  - OpenArabicPE/journal_al-zuhur
+  - OpenArabicPE/convert_tei-to-bibliographic-data
+
