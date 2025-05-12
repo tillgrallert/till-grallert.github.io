@@ -15,10 +15,7 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2017, 2016, 2013, 2012, 2010]
 {% include bib_search.liquid %}
 
 <div class="publications">
-<!-- this section makes use of the bibliography of proper academic publications in publications.bib -->
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography --query @*[year={{y}}]* %}
-{% endfor %}
+
+    {% bibliography %}
 
 </div>
