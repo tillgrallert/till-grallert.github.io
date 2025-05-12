@@ -72,26 +72,169 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+            },{id: "post-integrating-library-data-into-authority-file",
         
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Integrating library data into authority file <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        description: "The challenges of MARC XML and inconsistent transcription practices -           A recent Twitter post from my former colleague Anne Klammt made me aware of a recent relaunch of “Zeitschriftendatenbank” (ZDB), the portal for periodical holdings in German (and Austrian) libraries. Just played around with the German Union Catalogue of Serails (ZDB) \@DNB_Aktuelles Nice graphs, maps and data. #journals #linkeddata #authorityfiles pic.twitter.com/f0qVtAWA5d&amp;mdash; Dr. Anne Klammt (\@archaeoklammt) November 30, 2021 Part of the German National Library (Deutsche Nationalbibliothek, DNB), the website looks great and provides a lot of data-driven functionality, such as maps and timelines of holdings. The display language of the website itself, though not the bibliographic data, can be toggled between German and English. This is a welcome nod to international users and will certainly increase the visibility of this important portal. However, it must be noted that unfortunately the dataset of bibliographic data is not as accessible as the interface. Languages written in scripts other than Latin are provided in a variety of inconsistent transcriptions into Latin script for mostly historical technical reasons. This is not the fault of ZDB per se but it will prevent communities from the Global South from finding and accessing their own cultural heritage, which for various reasons are held by institutions in the Global North. This is especially relevant for Arabic material, as I will elaborate in the section on transliterations below. On the upside, however, ZDB supports historical political entities, such as the Ottoman Empire, for facetted browsing, which I have not yet seen in other library catalogues. Crucially, ZDB also provides...",
         section: "Posts",
         handler: () => {
           
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            window.open("https://openarabicpe.github.io/2022-02-17-zdb/", "_blank");
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+      },{id: "post-mapping-arabic-periodical-titles-between-1799-and-1929",
         
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Mapping Arabic periodical titles between 1799 and 1929 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "",
+        description: "A tutorial for mapping with R -           To celebrate this year’s Day of DH (#DayOfDH20201), I want to share this draft tutorial for mapping multilingual bibliographic data sets with R. NOTES This is a draft and I appreciate any comments, questions etc. using hypothes.is. This website is generated using the default GitHub pages Jekyll workflow, which does not support a citeproc plugin. The few references are, therefore, currently not formatted. The resulting maps have been published in their own repository. Introduction Large bibliographic dataset such as the one compiled by Project Jarāʾid (Mestyan, Grallert, and et al. 2020), which comprises information on more than 3300 periodical titles, are far too large and unwieldy for manual analysis. One wants to use descriptive statistics and visualisations for a first exploration of the data set, which can then guide further scrutiny and create new research questions. Basic information for each periodical in the Project Jarāʾid data set (with very few exceptions) include the date of the first publication as well as a publication location and additional languages beyond Arabic for bi- or even multilingual periodicals. Such a data set lends itself to mapping in order to see the distribution of the number of periodical titles per location for a certain period and region. In order to visualise change over time, one will want to animate the map in some way, just as the ones below: These GIFs combine multiple maps into a single animation and show the geographic distribution of new periodical titles in rolling periods of different length (year...",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+            window.open("https://openarabicpe.github.io/2021-04-29-mapping-with-r/", "_blank");
+          
+        },
+      },{id: "post-annual-report-openarabicpe-in-2019",
+        
+          title: 'Annual report: OpenArabicPE in 2019 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "The work on digital scholarly editions (DSE) of late Ottoman Arabic periodicals continued within the framework of OpenArabicPE (see annual report 2017). I added a number of periodicals to the existing editions of Muḥammad Kurd ʿAlī’s al-Muqtabas (Damascus and Cairo, 1906–18) and ʿAbd al-Qādir al-Iskandarānī’s al-Ḥaqāʾiq (Damascus, 1910–12) following the principles and workflows established over the last years. These are: Anastās Mārī al-Karmalī’s monthly journal Lughat al-ʿArab (Baghdad, 1911–14), Anṭūn al-Jumayyil’s monthly journal al-Zuhūr (Cairo, 1910–1913) and Abd Allāh Nadīm al-Idrīsī’s weekly journal al-Ustādh (Cairo, 1892–1893). The ability to quickly add and release a number of periodicals with full text and digital facsimiles was helped by the anonymous transcribers at al-Maktaba al-Shāmila, who reproduced the page breaks as found in the printed originals that allow us to quickly link the text to the facsimile. This is very different from both al-Muqtabas and al-Ḥaqāʾiq for which we had to add each of the 8000+ page breaks manually. Finally, I worked on a facsimile edition with transcriptions of article titles and bylines of Jirjī Niqūlā Bāz’s al-Ḥasnāʾ (Beirut, 1909–11). In the last report, I mentioned the importance of authorship attribution for the vast majority of anonymous articles if one wants to analyse the (social) network of authors and texts that form the ideosphere of the Arabic press in the Eastern Mediterranean. The, often implicit and accepted, hypothesis is that a periodical’s editors authored all articles for which they did not provide a meaningful byline. There are two issues with this hypothesis: first,...",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2020-01-08-annual-report-2019/", "_blank");
+          
+        },
+      },{id: "post-annual-report-openarabicpe-in-2018",
+        
+          title: 'Annual report: OpenArabicPE in 2018 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "The work on the digital editions of Muḥammad Kurd ʿAlī’s journal al-Muqtabas (Damascus and Cairo, 1906–18) and ʿAbd al-Qādir al-Iskandarānī’s journal al-Ḥaqāʾiq (Damascus, 1910–12) continued within the framework of OpenArabicPE. Contributions from our interns Manzi Tanna-Händel, Xaver Kretzschmar, Klara Mayer, Tobias Sick and Hans Magne Jaatun allowed us to release a further four volumes. Readers can find a project description in the last annual report and I will focus here on the first foray into the analysis of our corpus. One of the driving research questions behind OpenArabicPE focusses on reconstructing the ideosphere of the late Ottoman and early Arabic press through establishing networks of authors and texts published and referenced in the periodicals. With regards to al-Muqtabas and al-Ḥaqāʾiq, we ask: who published what in late Ottoman Damascus? As well as, what was read in late Ottoman Damascus? Any sort of meaningful computational analysis of the global connections between authors, texts, and periodicals as a venue for publication and review requires access to reliable standardised bibliographic metadata as a bare minimum. Unfortunately, such data is practically non-existant on the article level beyond our OpenArabicPE corpus. The situation is only marginally better on the issue level. Available metadata is not commonly provided in a standard-compliant and machine-actionable format. But even then, the vast majority of articles would remain outside our analytical scopes. Many publishers did not provide (meaningful) bylines and the majority articles in journals and newspapers from Beirut, Cairo or Damascus did not credit their authors (c.f. Table). One...",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2019-01-15-annual-report-2018/", "_blank");
+          
+        },
+      },{id: "post-v0-5-of-majallat-al-muqtabas-volume-3",
+        
+          title: 'v0.5 of (*majallat*) *al-Muqtabas*: volume 3 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We just released v0.5 of the journal al-Muqtabas. This release includes structural mark-up and page breaks based on the digital facsimiles for all issues of volume 3. As always, this release comprises all previously released files. This time, however, we have also included various improvements to TEI files and the bibliographic metadata, namely links from named entities, such as persons and places, to authority files (VIAF and GeoNames).  vol. 1: complete  vol. 3: complete  vol. 4: complete  vol. 5: complete  vol. 6: completeI wish to express my gratitude to the following contributors, who helped with the mark-up of page breaks:  Manzi Tanna-Händel:          volume 1, issues 10 to 12.      volume 3, issues 8 to 12.        Layla Youssef: volume 4, issues 7 to 12.  Dimitar Dragnev: volume 5, issues 2 to 12.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2018-12-17-released-muqtabas-v0-5/", "_blank");
+          
+        },
+      },{id: "post-v0-4-of-majallat-al-muqtabas-volume-1",
+        
+          title: 'v0.4 of (*majallat*) *al-Muqtabas*: volume 1 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We just released v0.4 of the journal al-Muqtabas. This release includes structural mark-up and page breaks based on the digital facsimiles of the first edition (sic!)1 for all issues of volume 1. In addition, this release comprises all previously released files.  vol. 1: complete  vol. 4: complete  vol. 5: complete  vol. 6: completeI wish to express my gratitude to the following contributors, who helped with the mark-up of page breaks:  Manzi Tanna-Händel: volume 1, issues 10 to 12.  Layla Youssef: volume 4, issues 7 to 12.  Dimitar Dragnev: volume 5, issues 2 to 12.            The TEI boilerplate based webview will default to facsimiles of the second edition. Page breaks occasionally differ between the two editions. &amp;#8617;",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2018-09-28-released-muqtabas-v0-4/", "_blank");
+          
+        },
+      },{id: "post-v0-3-of-majallat-al-muqtabas-volume-4",
+        
+          title: 'v0.3 of (*majallat*) *al-Muqtabas*: volume 4 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "After a long gap, that saw me return to Beirut after a prolonged parental leave, we just released v0.3 of the journal al-Muqtabas. This release includes structural mark-up and page breaks based on the digital facsimiles for all issues of volume 4. In addition, this release comprises all previously released files.  vol. 4: complete  vol. 5: complete  vol. 6: completeI wish to express my gratitude to the following contributors, who helped with the mark-up of page breaks:  Dimitar Dragnev: volume 5, issues 2 to 12.  Layla Youssef: volume 4, issues 7 to 12.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2018-05-09-released-muqtabas-v0-3/", "_blank");
+          
+        },
+      },{id: "post-v0-1-of-al-ḥaqāʾiq-volume-1",
+        
+          title: 'v0.1 of *al-Ḥaqāʾiq*: volume 1 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We just released v0.1 of the journal al-Ḥaqāʾiq published by ʿAbd al-Qādir al-Iskandarānī. As per our release schedule this release includes the following:  TEI files of all twelve issues of the first volume of al-Ḥaqāʾiq with tructural mark-up of mastheads, sections, articles, and with page breaks linked to the facsimiles;  MODS and BibTeX files for all issues, sections, and articles;  A local installation of the TEI Boilerplate for Arabic editions;I wish to express my gratitude to the following contributors, who helped with the mark-up of page breaks:  Talha Güzel: volume 1, issues 8 and 10.  Xaver Kretzschmar: volume 1, issue 11.Thanks to the efforts of CERN’s Zenodo platform we even got a DOI!",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2018-04-27-released-haqaiq-v0-1/", "_blank");
+          
+        },
+      },{id: "post-v0-2-of-majallat-al-muqtabas-volume-5",
+        
+          title: 'v0.2 of (*majallat*) *al-Muqtabas*: volume 5 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We just released v0.2 of the journal al-Muqtabas. This release includes structural mark-up and page breaks based on the digital facsimiles for volume 5. In addition, this release comprises all previously released files.  vol. 5: complete  vol. 6: completeI wish to express my gratitude to the following contributors, who helped with the mark-up of page breaks:  Dimitar Dragnev: volume 5, issues 2 to 12",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2017-02-01-released-muqtabas-v0-2/", "_blank");
+          
+        },
+      },{id: "post-v0-1-of-majallat-al-muqtabas",
+        
+          title: 'v0.1 of (*majallat*) *al-Muqtabas* <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Volume 6 -           We just released v0.1, the first proper release, of the journal al-Muqtabas. As per our release schedule this release includes the following:  TEI files of all twelve issues of the sixth volume of al-Muqtabas with tructural mark-up of mastheads, sections, articles, and with page breaks linked to the facsimiles;  MODS and BibTeX files for all issues, sections, and articles;  Copies of TEI schema files from OpenAraPE_ODD;  A local installation of the TEI Boilerplate for Arabic editions;  all XSLT stylesheets necessary for various transformations from sources (shamela) and to other formats (md), for generating bibliographic metadata (MODS, BibTeX), for improving mark-up, linking page breaks to facsimiles, etc.Thanks to the efforts of CERN’s Zenodo platform we even got a DOI!",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2017-02-01-released-muqtabas-v0-1/", "_blank");
+          
+        },
+      },{id: "post-presentation-of-digital-muqtabas-at-conference-39-books-in-motion-39-in-beirut",
+        
+          title: 'Presentation of *Digital Muqtabas* at conference &#39;Books in Motion&#39; in Beirut <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "I was invited to present Digital Muqtabas at the conference “Books in Motion: Exploring concepts of mobility in cross-cultural studies of the book” organised by Sonja Mejcher-Atassi, Hala Auji and James Hodapp (all AUB) that took place at AUB and OIB between 5-7 May 2016. The beautiful conference poster-cum-programme is available as PDF. My paper was titled: “Majallat al-Muqtabas between gray online libraries, large-scale scanning efforts, and programming tools: producing fully open, collaborative, and scholarly editions of early Arabic periodicals” and you can find the abstract below. It was part of a panel on digital remediation of the book on Saturday, 7 May, which I shared with David Wrisley (AUB) and Torsten Wollina (OIB). Torsten spoke on the challenges posed by the current state of digitization of books, manuscripts, and catelogues to researchers of the Islamicate world. David presented the fascinating results of course he taught on mapping Beirut’s publishing industry. The abstract to his paper is online as is the project website. As always, I have made the slides available on GitHub. Abstract Moving from the material to the seemingly immaterial, digitisation offers remedies for some of the Middle East’s most pressing issues when it comes to books as texts and cultural artifacts: protection, discovery, and access—particularly in times of war and iconoclasm, borders (between territories, linguistic communities, classes etc.), and highly dispersed audiences and artifacts. Yet, digitisation and the infrastructure to deliver digital artifacts is expensive and thus we have not a single scholarly digital edition of early...",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2016-05-10-presentation-books-in-motion/", "_blank");
+          
+        },
+      },{id: "post-workflow-mark-up-of-page-breaks",
+        
+          title: 'Workflow: Mark-up of page breaks <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "The following semi-automatic workflow allows to quickly mark-up page breaks and link them to facsimiles. Changes should be committed to GitHub after every step at the absolute minimum. Note that running XSLT 2.0 stylesheets requires some processing engine, most likely the open source Saxon processor. It comes built-in into many commercial XML editing tools, but currently I am not aware of any open-source and free-of-cost implementation. But as this project is envisioned as a collaboration, let’s collaborate. As long as someone commits TEI files with mannually added page breaks (see step 2.1 below) and then sends us a pull request, another collaborator with access to commercial software can run the transformations. 1. Mark-up 1.1 Page breaks Page breaks are recorded with the empty milestone element &amp;lt;pb/&amp;gt;. If a page break separates block level elements such as &amp;lt;div&amp;gt;, &amp;lt;p&amp;gt; or &amp;lt;lg&amp;gt;, the empty &amp;lt;pb/&amp;gt; is placed between the two elements and on the same level within the XML tree. &amp;lt;pb/&amp;gt; &amp;lt;div&amp;gt; &amp;lt;p&amp;gt;Some text in a paragraph &amp;lt;pb/&amp;gt; that spans across pages&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Some text in a paragraph that does not span across pages&amp;lt;/p&amp;gt; &amp;lt;pb/&amp;gt; &amp;lt;p&amp;gt; &amp;lt;!-- --&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;pb/&amp;gt; &amp;lt;div&amp;gt; &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;!-- --&amp;gt; &amp;lt;/div&amp;gt; Page breaks found in al-maktaba al-shāmila do not correspond to those in the original printed copies. They were therefore marked as &amp;lt;pb ed=&quot;shamila&quot;&amp;gt;. Page breaks corresponding to the original printed edition are identified by @ed=&quot;print&quot;. Dār Ṣādir in Beirut published a reprint in 1992, which is entirely unmarked as such but for the information on the binding...",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2016-05-08-workflow-mark-up-page-breaks/", "_blank");
+          
+        },
+      },{id: "post-how-to-contribute",
+        
+          title: 'How to contribute <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Go to GitHub and register a free account. GitHub has fantastic tutorials that you might want to study if you are not yet familiar with the service.  Fork the repository of the edition you are interested in.  Edit the XML of the edition. This can be done either directly on GitHub, with any text editor on your local machine, or an online XML editor such as oXygen web that can hook into your GitHub account  Send us a pull request  We will review and merge your changes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2016-04-24-how-to-contribute/", "_blank");
+          
+        },
+      },{id: "post-archive-sakhrit-co-39-s-failure-as-a-source-for-digitsed-imagery-of-arabic-journals",
+        
+          title: 'Archive.sakhrit.co&#39;s failure as a source for digitsed imagery of Arabic journals <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Recently, a colleague pointed me to yet another gray online library of Arabic material—one that was entirely dedicated to cultural and litrary journals. Arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co) presents a large number of Arabic journals over very long publication periods, providing: Partially watermarked digital imagery Functional tables of content for each issue, including author, title, page number Some bibliographic metadata on the issue level They do not provide a digital, machine-readable text. Focus of the corpus The focus is on cultural and scientific journals of the 20th century but they also have some journals of the late 19th and early 20th centuries, among them: Cairo al-Muqtaṭaf al-Ustādh al-Hilāl al-Bayān al-Manār al-Jāmiʿa (al-ʿUthmāniyya) al-Zuhūr Lebanon al-Mashriq Syria al-Muqtabas As one would imagine, I was exited to see a seemingly complete scan of al-Muqtabas among the journals hosted by archive.sakhrit. I am currently working on a digital scholarly and collaborative edition of this journal (see the project’s GitHub repository and blog)1 and only found accessible scans of volumes 1 to 8. Thus, the prospect of an additional and potentially complete scan, including volume 9, was exiting. But after my initial enthusiasm, I was in for a serious disappointment. Quality of the corpus As with other gray libraries, such as al-Maktaba al-Shāmila (shamela.ws), archive.sakhrit is quiet about the personnel or company behind it. It remains unclear where the originals came from, who scanned them, who transcribed the heads, authors, and page numbers seemingly available for every article. The rather illegal / gray...",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2016-04-22-review-archive-sakhrit/", "_blank");
+          
+        },
+      },{id: "post-presentation-at-dixit-convention-2-in-cologne",
+        
+          title: 'Presentation at DiXiT Convention 2 in Cologne <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "I was invited to present Digital Muqtabas at DiXiT’s second convention on “Academia, Cultural Heritage, Society” that took place in Cologne between 14–18 March. The paper, titled: “The journal al-Muqtabas between Shamela.ws, HathiTrust, and GitHub: producing open, collaborative, and fully-referencable digital editions of early Arabic periodicals—with almost no funds”, was part of a panel on “Social Editing &amp;amp; Funding”, which I was lucky to share with Ray Siemens, who skyped in from Victoria, and Misha Misha Broughton.Slides can be found here and the abstract here.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://openarabicpe.github.io/2016-03-17-presentation-dixit-2/", "_blank");
           
         },
       },{id: "books-the-godfather",
