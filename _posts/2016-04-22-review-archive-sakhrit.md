@@ -48,10 +48,10 @@ I have assessed the quality of their "scans" of *al-Muqtabas*. Some volumes/ iss
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sakhrit_muqtabas-v_5-i_7-p_605.jpg" class="img-fluid rounded z-depth-1" caption="At *archive.sakhrit* and *shamela* the text stops at من هذا الناشيء" %}
+        {% include figure.liquid loading="eager" path="assets/img/sakhrit_muqtabas-v_5-i_7-p_605.jpg" class="img-fluid rounded z-depth-1" title="At *archive.sakhrit* and *shamela* the text stops at من هذا الناشيء" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eap_muqtabas-v_5-i_7-p_463.jpg" class="img-fluid rounded z-depth-1" caption="Scans of the original page reveal that the text just continues on line 6 with ابو ابعباس" %}
+        {% include figure.liquid loading="eager" path="assets/img/eap_muqtabas-v_5-i_7-p_463.jpg" class="img-fluid rounded z-depth-1" title="Scans of the original page reveal that the text just continues on line 6 with ابو ابعباس" %}
     </div>
 </div>
 
