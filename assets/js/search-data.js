@@ -171,6 +171,17 @@ ninja.data = [{
             window.location.href = "/blog/2017/02/22/plain-text/";
           
         },
+      },{id: "post-presentation-at-39-dangerous-classes-39-conference-in-oxford",
+        
+          title: "Presentation at &#39;Dangerous Classes&#39; conference in Oxford",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/02/18/dangerous-classes/";
+          
+        },
       },{id: "post-v0-2-of-majallat-al-muqtabas-volume-5",
         
           title: 'v0.2 of (*majallat*) *al-Muqtabas*: volume 5 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -193,6 +204,28 @@ ninja.data = [{
             window.open("https://openarabicpe.github.io/2017-02-01-released-muqtabas-v0-1/", "_blank");
           
         },
+      },{id: "post-the-difficulty-of-establishing-publication-dates-for-books-from-late-ottoman-bilād-al-shām",
+        
+          title: "The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/10/12/dating-books/";
+          
+        },
+      },{id: "post-essay-published-in-edited-volume-39-digital-humanities-and-islamic-amp-middle-east-studies-39",
+        
+          title: "Essay published in edited volume &#39;Digital Humanities and Islamic &amp; Middle East Studies&#39;...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/05/20/mapping-ottoman-damascus-through-newsreports/";
+          
+        },
       },{id: "post-presentation-of-digital-muqtabas-at-conference-39-books-in-motion-39-in-beirut",
         
           title: 'Presentation of *Digital Muqtabas* at conference &#39;Books in Motion&#39; in Beirut <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -202,6 +235,17 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://openarabicpe.github.io/2016-05-10-presentation-books-in-motion/", "_blank");
+          
+        },
+      },{id: "post-presentation-of-digital-muqtabas-at-conference-39-books-in-motion-39-in-beirut",
+        
+          title: "Presentation of *Digital Muqtabas* at conference &#39;Books in Motion&#39; in Beirut",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/05/10/presentation-books-in-motion/";
           
         },
       },{id: "post-workflow-mark-up-of-page-breaks",
@@ -237,6 +281,17 @@ ninja.data = [{
             window.open("https://openarabicpe.github.io/2016-04-22-review-archive-sakhrit/", "_blank");
           
         },
+      },{id: "post-archive-sakhrit-co-39-s-failure-as-a-source-for-digitsed-imagery-of-arabic-journals",
+        
+          title: "Archive.sakhrit.co&#39;s failure as a source for digitsed imagery of Arabic journals",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/04/22/review-archive-sakhrit/";
+          
+        },
       },{id: "post-presentation-at-dixit-convention-2-in-cologne",
         
           title: 'Presentation at DiXiT Convention 2 in Cologne <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -246,6 +301,292 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://openarabicpe.github.io/2016-03-17-presentation-dixit-2/", "_blank");
+          
+        },
+      },{id: "post-presentation-of-digital-muqtabas-at-dixit-convention-2-in-cologne",
+        
+          title: "Presentation of *Digital Muqtabas* at DiXiT Convention 2 in Cologne",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/03/17/presentation-dixit-2/";
+          
+        },
+      },{id: "post-the-historian-39-s-puzzle-various-differences-between-copies-of-printed-periodicals-that-ought-to-be-similar-the-case-of-dūstur",
+        
+          title: "The historian&#39;s puzzle: various differences between copies of printed periodicals that ought to...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/01/29/the-puzzle-of-dustur/";
+          
+        },
+      },{id: "post-majallat-al-muqtabas-one-of-the-most-important-journals-of-late-ottoman-bilād-al-shām-as-open-collaborative-scholarly-digital-edition",
+        
+          title: "*Majallat al-Muqtabas*: one of the most important journals of late Ottoman *Bilād al-Shām*...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/11/13/online-resource-muqtabas/";
+          
+        },
+      },{id: "post-middle-eastern-graffiti",
+        
+          title: "Middle Eastern Graffiti",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/11/12/middle-eastern-graffiti/";
+          
+        },
+      },{id: "post-academic-writing-in-plain-text-useful-resources",
+        
+          title: "Academic writing in plain text: useful resources",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/07/20/jekyll-resources/";
+          
+        },
+      },{id: "post-text-encoding-fundamentals-and-their-application",
+        
+          title: "Text Encoding Fundamentals and their Application",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/06/01/TEI-at-DHSI/";
+          
+        },
+      },{id: "post-from-analogue-documents-to-electronic-texts-introduction-to-tei-xml-editing-in-multilingual-environments",
+        
+          title: "From analogue documents to electronic texts: Introduction to TEI XML editing in multilingual...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/03/02/TEI-at-DHIB/";
+          
+        },
+      },{id: "post-überlegungen-und-material-für-den-editionsworkshop-im-märz-2015-am-oib",
+        
+          title: "Überlegungen und Material für den Editionsworkshop im März 2015 am OIB",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/02/23/workshop-editions-material/";
+          
+        },
+      },{id: "post-the-shitting-duck-mechanisierung-magie-und-sozio-technische-systeme",
+        
+          title: "The Shitting Duck: Mechanisierung, Magie und Sozio-technische Systeme",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/05/01/shitting-duck/";
+          
+        },
+      },{id: "post-thesis-english-abstract",
+        
+          title: "Thesis: English abstract",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/04/18/abstract-thesis-english/";
+          
+        },
+      },{id: "post-thesis-german-abstract",
+        
+          title: "Thesis: German abstract",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/04/18/abstract-thesis-german/";
+          
+        },
+      },{id: "post-the-puzzle-continues-ii-in-addition-to-al-kabīr-and-al-ṣaghīr-al-muqtaṭaf-published-slightly-different-editions-in-beirut-and-kairo",
+        
+          title: "The puzzle continues II: in addition to *al-kabīr* and *al-ṣaghīr*, *al-Muqtaṭaf* published slightly...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/01/19/the-puzzle-continues-2/";
+          
+        },
+      },{id: "post-new-xslt-stylesheets-for-calendar-conversion-on-github",
+        
+          title: "New XSLT stylesheets for calendar conversion on Github",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/01/04/new-calendar-conversion/";
+          
+        },
+      },{id: "post-the-puzzle-continues-al-muqtaṭaf-was-printed-in-two-different-and-unmarked-editions",
+        
+          title: "The puzzle continues: *al-Muqtaṭaf* was printed in two different and unmarked editions",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/08/19/the-puzzle-continues/";
+          
+        },
+      },{id: "post-xslt-functions-for-converting-calendars",
+        
+          title: "XSLT functions for converting calendars",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/07/04/xslt-calendar-conversion/";
+          
+        },
+      },{id: "post-historical-currency-converter",
+        
+          title: "Historical Currency Converter",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/05/04/historical-currency-converter/";
+          
+        },
+      },{id: "post-solution-to-the-historian-39-s-puzzle",
+        
+          title: "Solution to the historian&#39;s puzzle?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/01/19/the-historians-puzzle-solution/";
+          
+        },
+      },{id: "post-update-to-the-historian-39-s-puzzle",
+        
+          title: "Update to the historian&#39;s puzzle",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/01/12/the-historians-puzzle-update/";
+          
+        },
+      },{id: "post-the-historian-39-s-puzzle-various-differences-between-copies-of-printed-periodicals-that-ought-to-be-similar",
+        
+          title: "The historian&#39;s puzzle: various differences between copies of printed periodicals that ought to...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2012/12/29/the-historians-puzzle/";
+          
+        },
+      },{id: "post-project-jaraid-our-new-chronology-of-nineteenth-century-arabic-periodicals-is-online",
+        
+          title: "Project Jaraid: our new chronology of nineteenth-century Arabic periodicals is online",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2012/09/02/project-jaraid/";
+          
+        },
+      },{id: "post-praxisbezug-der-islamwissenschaft",
+        
+          title: "Praxisbezug der Islamwissenschaft",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2012/04/01/praxisbezug-islamwissenschaft/";
+          
+        },
+      },{id: "post-digitised-books-newspapers-and-maps-at-düsseldorf",
+        
+          title: "Digitised books, newspapers, and maps at Düsseldorf",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2012/03/30/digitised-books/";
+          
+        },
+      },{id: "post-digitised-german-newspapers",
+        
+          title: "Digitised German newspapers",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2011/08/23/digitsed-german-newspapers/";
+          
+        },
+      },{id: "post-ottoman-newspapers-and-periodicals-online-for-all-of-us",
+        
+          title: "Ottoman newspapers and periodicals online for all of us",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2011/04/02/ottoman-newspapers/";
+          
+        },
+      },{id: "post-ottoman-yearbooks-online-for-the-lucky-few-and-the-ones-with-us-ips",
+        
+          title: "Ottoman yearbooks online … for the lucky few (and the ones with US...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2011/03/31/ottoman-yearbooks-online/";
+          
+        },
+      },{id: "post-current-projects",
+        
+          title: "Current projects",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2011/03/27/current-projects/";
           
         },
       },{id: "books-the-godfather",
