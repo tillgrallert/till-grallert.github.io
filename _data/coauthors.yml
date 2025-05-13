@@ -1,6 +1,31 @@
+"dresselhaus":
+  - firstname: ["Nicole", "N."]
+    url: https://www.wikidata.org/wiki/Q133566605
+
+"eckenstaler":
+  - firstname: ["Sopie", "S."]
+    url: https://www.wikidata.org/wiki/Q131844641
+
 "hiltmann":
   - firstname: ["Torsten", "T.", "E. P."]
     url: https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/personen/torsten-hiltmann
+
+"horváth":
+  - firstname: ["Alíz", "Aliz", "A."]
+    url: https://www.wikidata.org/wiki/Q126692107
+
+"schlesinger":
+  - firstname: ["Claus-Michael", "CM.", "C.-M."]
+    url: https://www.wikidata.org/wiki/Q126371630
+
+"wrisley":
+  - firstname: ["David", "D.", "David Joseph", "David J."]
+    url: https://www.wikidata.org/wiki/Q126335083
+
+"wagner":
+  - firstname: ["Cosima", "C."]
+    url: https://www.wikidata.org/wiki/Q95459885
+
 
 # "podolsky":
 #   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
