@@ -7,7 +7,7 @@ categories:
 - blog
 - publication
 - project_dh
-- project_dape
+- project_oape
 tags:
 - presentation
 - conferences

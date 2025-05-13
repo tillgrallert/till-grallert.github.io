@@ -6,7 +6,7 @@ date: 2016-03-17 19:28:14 +0300
 categories:
 - presentation
 - project_dh
-- project_dape
+- project_oape
 tags:
 - presentation
 - conferences
