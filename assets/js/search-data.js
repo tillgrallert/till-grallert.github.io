@@ -160,6 +160,17 @@ ninja.data = [{
             window.open("https://openarabicpe.github.io/2018-04-27-released-haqaiq-v0-1/", "_blank");
           
         },
+      },{id: "post-introduction-to-plain-text-workflows-and-sustainable-publishing",
+        
+          title: "Introduction to Plain Text Workflows and Sustainable Publishing",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/02/22/plain-text/";
+          
+        },
       },{id: "post-v0-2-of-majallat-al-muqtabas-volume-5",
         
           title: 'v0.2 of (*majallat*) *al-Muqtabas*: volume 5 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
