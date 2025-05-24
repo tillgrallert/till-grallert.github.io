@@ -12,7 +12,6 @@ profile:
     <p>NFDI 4Memory</p>
     <p>Institut für Geschichtswissenschaften</p>
     <p>Humboldt-Universität zu Berlin</p>
-    <p>Universitätsbibliothek</p>
     <p>Friedrichstrasse 191--3</p>
     <p>10117 Berlin</p>
 
